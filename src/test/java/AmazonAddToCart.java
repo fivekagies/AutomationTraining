@@ -212,7 +212,8 @@ public class AmazonAddToCart  extends TestRules{
         this.initialise(driver, test);
         // create object of HomePage
         homePage = new HomePage(driver, isMobile);
-        Assert.assertTrue(homePage.isPageOpened());
+
+        //Assert.assertTrue(homePage.isPageOpened());
 
         test.log(LogStatus.INFO, "search for product");
 
